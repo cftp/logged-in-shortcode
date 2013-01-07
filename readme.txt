@@ -1,5 +1,5 @@
 === Logged In Shortcode ===
-Contributors: johnbillion
+Contributors: cftp, johnbillion
 Tags: shortcode
 Requires at least: 3.0
 Tested up to: 3.6
