@@ -2,7 +2,7 @@
 /*
 Plugin Name: Logged in Shortcode
 Description: Shortcodes for showing/hiding content for logged in and non-logged in users
-Version:     1.0
+Version:     1.1
 Author:      <a href="http://codeforthepeople.com/">Code for the People</a> | Commissioned by <a href="http://www.internetretailing.net/">Internet Retailing</a>
 
 Copyright © Code for the People Ltd
