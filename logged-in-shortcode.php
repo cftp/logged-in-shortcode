@@ -49,7 +49,7 @@ class Logged_In_Shortcode {
 		global $post;
 
 		if ( is_user_logged_in() )
-			return $content;
+			return apply_filters( 'ld_wrap_content', "<span class='lis-block lis-logged-in'>$content</span>" );
 		else
 			return $this->get_template( 'not-logged-in', $post->post_type );
 
@@ -68,7 +68,7 @@ class Logged_In_Shortcode {
 		global $post;
 
 		if ( !is_user_logged_in() )
-			return $content;
+			return "<div class='lis-block lis-not-logged-in'>$content</div>";
 		else
 			return $this->get_template( 'logged-in', $post->post_type );
 
